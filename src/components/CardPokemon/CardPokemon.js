@@ -2,14 +2,17 @@ import React from 'react';
 //import PropTypes from 'prop-types';
 import styles from './CardPokemon.module.scss';
 import gifLoading from '../../resources/loading.gif'
+import Image from '../Image/Image.js'
 
 const CardPokemon = () => (
   <div>
       <div className="card border border-primary rounded" >
         <div id={styles.fundoCard}> 
           <div>
-            <div id={styles.fundoImagePokemon}>
-              <img className="card-img-top" src={gifLoading} alt="Loading"></img>
+           <div id={styles.fundoImagePokemon}>
+              <div id={styles.Image} className="card-img-top">
+                <Image ImageURL={gifLoading}></Image>               
+              </div>
             </div>
           </div>
           <div className="card-body">
