@@ -1,17 +1,34 @@
+#CardPokemon{
+    background-color: rgb(192, 192, 192);
+}
+#CardPokemon:after{
+    background-color: rgba(192, 192, 192, 0.225);
+}
+#CardPokemon:hover:after{
+    background-color: rgba(192, 192, 192, 0.225);
+}
+
+#bgCard{
+    background-color: rgba(174, 174, 174, 0.136);
+}
 
 #Image{
     margin: 5% 5% 5% 5% ;
+    padding-top:  10px;
     border: 2px, solid,black;
     width: 70%;
     height: 70%;
     border-radius: 500%;
-    background-color: rgb(255, 255, 255);
     margin: 0 auto;
 }
 
 
 #fundoCard {   
     //Essa cor deve mudar de acordo com o pokemon
-    background-color: rgba(249, 223, 223, 0.999);
+    background-color: rgba(226, 223, 249, 0.999);
+    width: 90%;
+    height: 90%;
+    margin: 5% 5% 5% 5%;
+    border-radius: 15px;
 }
 
