@@ -11,6 +11,16 @@ function App() {
           <div className="col-12 col-lg-3 col-sm-6" style={{ paddingTop: '10px' }}>
             <CardPokemon/>
           </div>
+          <div className="col-12 col-lg-3 col-sm-6" style={{ paddingTop: '10px' }}>
+            <CardPokemon/>
+          </div>
+          <div className="col-12 col-lg-3 col-sm-6" style={{ paddingTop: '10px' }}>
+            <CardPokemon/>
+          </div>
+          <div className="col-12 col-lg-3 col-sm-6" style={{ paddingTop: '10px' }}>
+            <CardPokemon/>
+          </div>
+          
         </div>      
       </div>      
     </div>
