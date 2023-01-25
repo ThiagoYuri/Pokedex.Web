@@ -5,8 +5,8 @@ import gifLoading from '../../resources/loading.gif'
 import Image from '../Image/Image.js'
 
 const CardPokemon = () => (
-  <div id={styles.CardPokemon}>
-      <div className="card border" >
+  <div >
+      <div className="card border" id={styles.CardPokemon}>
         <div id={styles.fundoCard}>        
               <div id={styles.Image} className="card-img-top">
                 <Image ImageURL={gifLoading}></Image>               
