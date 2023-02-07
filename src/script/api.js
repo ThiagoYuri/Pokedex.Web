@@ -1,4 +1,4 @@
-export function get(URL,useState = null,filter = null)
+export default function get(URL,useState= null,filter = null)
 {
     fetch(URL,{method:"GET"})
     .then(data => {
@@ -8,6 +8,7 @@ export function get(URL,useState = null,filter = null)
         if(filter != null){
             result = result.filter(filter)
         }
+        console.log(result)
         useState(result)
     })
 }
